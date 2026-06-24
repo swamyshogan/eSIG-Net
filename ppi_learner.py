@@ -12,7 +12,7 @@ import numpy as np
 import logging
 from ppi_dataset import SDNNPPIdataset
 from sklearn.model_selection import train_test_split
-from tools.metric_recorder import MetricRecorder
+from metric_recorder import MetricRecorder
 # from models import PredModel, DiscrimModel
 from losses import EditLoss
 
